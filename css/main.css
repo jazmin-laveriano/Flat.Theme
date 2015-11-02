@@ -1,0 +1,307 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+body{
+	padding-top: 40px;
+	color: #34495e;
+	background: #f5f5f5;
+	font-family: 'Roboto', sans-serif;
+}
+.wet-asphalt {
+    background-color: #34495e;
+    padding: 1%;
+}
+.navbar-inverse {
+background-color: none;
+}
+
+.navbar-fixed{
+	position: fixed;
+	right:0;
+	left:0;
+	z-index: 10;
+}
+.navbar a:hover{
+	background: rgba(0,0,0,0.2);
+	border-radius: 4px;
+	color: white;
+}
+.no-margin{
+	margin:0;
+	padding:0;
+}
+#main-slider{
+	background: url('../images/slider/bg1.jpg') no-repeat;
+	height: 607px;
+	background-size: cover;	
+}
+.animation{
+	color: white;
+}
+.navbar-inverse {
+background-color: none;
+}
+
+.box {
+    background: rgba(0,0,0, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 19%;
+}
+ul {
+	padding-left: 0%;
+}
+ul li {
+	list-style: none;
+}
+.icon {
+    font-size: 30px;
+    color: white;
+}
+.bg-hero {
+	background: #30D073;
+}
+section .text-right a{
+	color: white;
+}
+ 
+a:hover {
+	text-decoration: none;
+}
+
+.progress-bar {
+	padding-top: 2px;
+}
+section {
+	padding: 3% 0% 1%;
+	background-color: rgb(244, 244, 244);
+}
+.teacher {
+	border-radius: 90px;
+	border: 3px solid white;
+}
+.border-img {
+	border-radius: 10px 10px 0 0;;
+    width: 100%;
+}
+.circle {	
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 8px;
+}
+i:hover {
+	color:#34495e;
+}
+#blue {
+	background: blue;
+}
+#blue:hover {
+    background: #EFD647;
+    transition: background 0.5s;
+}
+#red {
+	background: red;
+}
+#red:hover {
+    background: #EFD647;
+    transition: background 0.5s;
+}
+#skyblue {
+	background: skyblue;
+}
+#skyblue:hover {
+	background: #EFD647;
+	transition: background 0.5s;
+}
+#blue2 {
+	background: #4C9ECE;
+}
+#blue2:hover {
+    background: #EFD647;
+    transition: background 0.5s;
+}
+.sub {
+	font-size: 10px;
+}
+.bg-about {
+	background-color: #34495e;
+	color: #bdc3c7;
+}
+.text, section.bg-about a{ 
+	color: #bdc3c7;
+}
+section.bg-gray a{
+	color: black;
+}
+footer {
+	padding: 2% 6%;
+	background-color: #2c3e50;
+	color: #bdc3c7;
+}
+footer a{
+	color: #bdc3c7;
+}
+
+/*blog-button*/
+
+.bg-white {
+    background: white;
+    padding: 0% 0% 3%;
+    border-radius: 10px;
+}
+
+.a-gray {
+	padding-right: 2%;
+	color: gray;
+}
+.lf {
+    margin-left: 5px;
+}
+.rg {
+	margin-right: 5px;
+}
+.border {
+	border-radius: 7px;
+}
+ul.pagination > li.active > a, ul.pagination > li:hover > a {
+   background-color: #34495e;
+   color: #fff;
+}  
+.size {
+	border-radius: 9px;
+    border: 2px solid gray;
+    -webkit-transition: all 0.5s ease-out;
+}
+.size:hover {
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(-360deg) ;
+}
+
+/*blog-item*/
+
+.box-gray {
+    padding: 2%;
+    background-color: rgb(244, 244, 244);
+}
+.dp {
+	display: inline-block;
+}
+.big-gray {
+	margin-left: 8%;
+	padding: 2%;
+	background-color: rgb(244, 244, 244);
+}
+.text-right>a.active {
+	color: rgba(255, 255, 255, 0.7);
+}
+.bg-read {
+    background-color: #51BAC4;
+}
+.bg-read:hover {
+	background: #AAE5EA;
+	transition: background 0.5s ;
+}
+.b-h:hover {
+	background: #16B1AC;
+	transition: background 0.5s ;
+}
+/*main-colaboration*/
+
+.follow, .green{
+	background-color: #2ECC71;
+	color: white;
+}
+#Clients-say{
+	background: #E74C3C;
+}
+.center h2, p, cite{
+	color: white;
+}
+ul.arrow{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+#go{
+	background-color: #34495E;
+}
+body > section {
+    padding: 50px 0;
+}
+#go p, li, address{
+	color: #B6BDC2;
+}
+#go h4{
+	color: white;
+}
+footer{
+	background: #2C3E50;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#about{
+	overflow: hidden;
+}
+ul.breadcrumb > li.active {
+    color: rgba(255, 255, 255, 0.7);
+}
+#portfolio h1{
+	margin-top: 10%;
+}
+#portfolio p{
+	margin-bottom: 15%;
+}
+ul.breadcrumb {
+    margin: 20px 0 0;
+    background: transparent;
+    margin-top: 25%;
+}
+ul.breadcrumb a{
+	color: white;
+}
+.portfolio-items, .portfolio-filter {
+    list-style: none;
+    padding: 0;
+    margin: 0 -20px 20px 0;
+}
+.portfolio-item .item-inner {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px 10px 0;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.bk {
+	color: black;
+}
+.apps h5{
+	color: #2E3C50;
+	font-weight: bold;
+}
+#portfolio2{
+	margin-bottom: 5%;
+}
+.bg-about {
+	background-color: #34495e;
+	color: #bdc3c7;
+}
+
+
+
